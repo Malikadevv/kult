@@ -1,0 +1,61 @@
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin btn{
+  background: rgba(40, 33, 255, 0.71);
+  cursor: pointer;
+  transition: 2.2s;
+  padding: 7px 10px;
+  background: #1A5CFF;
+  box-shadow: 0px 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+    background: rgba(26, 92, 255, 0.87);
+}}
+@mixin puh{
+  cursor: pointer;
+  transition: 2.2s;
+  padding: 5px 8px;
+  background: #9099A3;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+    background: rgba(26, 92, 255, 0.87);
+  }
+}
+@mixin lol{
+  cursor: pointer;
+  transition: 2.2s;
+  padding: 12px 50px;
+  background: #2C3E50;
+  border-radius: 15px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  &:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+    background: rgba(26, 92, 255, 0.87);
+  }
+}
