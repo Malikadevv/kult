@@ -26,6 +26,111 @@ a {
     font-size: 45px !important;
   }
 }
+@media (max-width: 1024px) {
+  #travel {
+    background: red;
+    color: #1A5CFF;
+  }
+  #travel .travel--nature {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #travel .travel--nature__country button {
+    padding: 12px 55px;
+  }
+  #city .city--animation__watch {
+    width: 900px;
+  }
+  #city .city--animation__watch h4 {
+    font-size: 35px !important;
+  }
+  #paket .paket--dollar {
+    width: 250px;
+  }
+}
+@media (max-width: 992px) {
+  #paket .paket--dollar {
+    width: 260px !important;
+  }
+  #paket .paket--dollar__market h2 {
+    width: 280px !important;
+  }
+  #paket .paket--dollar__market--foul {
+    padding: 6px 30px !important;
+  }
+}
+@media (max-width: 820px) {
+  #city .city--animation__watch {
+    width: 673px !important;
+    padding: 2px !important;
+  }
+  #city .city--animation__watch h4 {
+    font-size: 23px !important;
+  }
+  #city .city--animation__your h3 {
+    font-size: 25px !important;
+  }
+  #travel .travel--nature {
+    padding-left: 17px !important;
+  }
+  #travel .travel--nature button {
+    padding: 1px 54px !important;
+    margin-top: 2px !important;
+  }
+  #travel .travel--nature__image img {
+    width: 99% !important;
+  }
+  #children .children--soon h1 {
+    font-size: 29px !important;
+  }
+  #paket .paket--dollar {
+    width: 200px !important;
+  }
+  #paket .paket--dollar__market h2 {
+    width: 220px !important;
+  }
+  #paket .paket--dollar__market--foul {
+    font-size: 8px !important;
+    padding: 6px 30px !important;
+    margin: -40px 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  #city .city--animation__watch {
+    width: 400px;
+    flex-direction: column;
+  }
+  #city .city--animation__watch h4 {
+    font-size: 25px !important;
+  }
+  #city .city--animation__your {
+    flex-direction: column;
+  }
+  #city .city--animation__class {
+    flex-direction: column;
+  }
+  #paket .paket {
+    flex-direction: column;
+  }
+  #children .children--sun input {
+    width: 300px !important;
+  }
+  #children .children .ask {
+    margin-left: 1px !important;
+  }
+  #footer .footer {
+    flex-direction: column;
+  }
+  #miss .miss--fon {
+    flex-direction: column;
+  }
+  #miss .miss--fon__man p {
+    flex-direction: column !important;
+  }
+  #hot .hot {
+    flex-direction: column;
+  }
+}
 #header {
   background: black;
   padding: 20px 0;
@@ -148,17 +253,13 @@ a {
   color: rgba(255, 255, 255, 0.61);
 }
 
-#title {
-  background: black;
-  min-height: 100vh;
+#miss {
+  background: #1E2024;
 }
-#title .title {
-  padding: 30px 0;
+#miss .miss {
+  padding: 25px 0;
 }
-#title .title--zet {
-  padding: 20px 0;
-}
-#title .title--zet h1 {
+#miss .miss h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -166,15 +267,15 @@ a {
   line-height: 54px;
   color: #FFFFFF;
 }
-#title .title--right {
+#miss .miss--fon {
+  background: #FFFFFF;
+  border-radius: 15px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 25px 0;
-  border-radius: 15px;
-  background: #FFFFFF;
+  justify-content: space-around;
+  padding-top: 20px;
 }
-#title .title--right__moll p {
+#miss .miss--fon__man p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -182,62 +283,61 @@ a {
   line-height: 21px;
   text-transform: capitalize;
   color: #2C3E50;
-  padding: 15px 0;
 }
-#title .title--right__all p {
+#miss .miss--fon__left p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   text-transform: capitalize;
-  padding: 15px 0;
+  color: #2C3E50;
+  padding-bottom: 20px;
 }
-#title .title--right__all h1 {
+#miss .miss--fon__left span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+  padding-top: 20px;
+}
+#miss .miss--fon__left h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   color: #2C3E50;
-  padding: 15px 0;
+  padding: 10px 0;
 }
-#title .title--right__all h2 {
+#miss .miss--fon__left h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
   color: #2C3E50;
-  padding: 15px 0;
 }
-#title .title--right__all h3 {
+#miss .miss--fon__left h3 span {
+  padding-left: 15px;
+}
+#miss .miss--fon__left h5 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
   color: #2C3E50;
-  padding: 15px 0;
 }
-#title .title--right__all h4 {
+#miss .miss--fon__left h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   color: #2C3E50;
-}
-#title .title--right__all span {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 25px;
-  color: #2C3E50;
-}
-#title .title--right__all img {
-  padding-left: 349px;
+  padding: 5px 0;
 }
 
 #left {
@@ -377,7 +477,7 @@ a {
   line-height: 27px;
   color: #FFFFFF;
   margin-top: 50px;
-  padding: 12px 155px;
+  padding: 12px 100px;
 }
 #travel .travel--nature button:hover {
   transform: scale(1.1);
