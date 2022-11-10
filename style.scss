@@ -2,6 +2,9 @@
 @import "mixin";
 @import "global";
 @import "media";
+.scroll{
+  overflow: hidden;
+}
 
 #header {
   background: black;

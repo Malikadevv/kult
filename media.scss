@@ -223,5 +223,17 @@
   }
 }
 
-@media(max-width: 451px){}
+@media(max-width: 451px){
+#children{
+
+  .children{
+    flex-direction: column ;
+    &--soon{
+
+    }
+
+  }
+}
+
+}
 @media(max-width: 400px){}

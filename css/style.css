@@ -131,6 +131,15 @@ a {
     flex-direction: column;
   }
 }
+@media (max-width: 451px) {
+  #children .children {
+    flex-direction: column;
+  }
+}
+.scroll {
+  overflow: hidden;
+}
+
 #header {
   background: black;
   padding: 20px 0;
